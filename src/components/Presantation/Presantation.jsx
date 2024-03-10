@@ -1,13 +1,12 @@
-import photo from "../../assets/photo_perso.png";
+import logo from "../../assets/logo_perso.png";
 
 export default function Presantation() {
   return (
-    <div className="card card-side bg-base-100 shadow-xl rounded-none bg-opacity-0 my-10 mx-10">
-      <figure className="object-cover w-full h-44">
-        <img src={photo} alt="photo de moi" />
+    <div className="card lg:card-side bg-base-100 shadow-xl rounded-none bg-opacity-0 my-10 mx-10">
+      <figure className="object-cover w-full h-52">
+        <img src={logo} alt="photo de moi" />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">Andy BEVIS</h2>
         <p>
           "Je suis actuellement en formation de développement web et web mobile
           pour une durée de 6 mois à l'École O'Clock. J'ai toujours été
