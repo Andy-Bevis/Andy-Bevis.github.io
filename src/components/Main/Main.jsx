@@ -1,9 +1,7 @@
-import photo from '../../assets/photo_perso.png';
-
 export default function Main() {
   return (
     <div className="h-96 my-10 mx-10 border">
-      <img className="h-60 w-min" src={photo} alt="" />
+      <img className="h-60 w-min" src={logo} alt="" />
       <p className="font-bold text-xl text-[#F5F0EA]">
         "Je suis actuellement en formation de développement web et web mobile
         pour une durée de 6 mois à l'École O'Clock. J'ai toujours été intéressé
